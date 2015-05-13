@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom Grid colors -->
+
+    <color name="primary_text">#222222</color>
+    <color name="primary_text_black">#e2e2e2</color>
+    <color name="lime_text">#d8de1a</color>
+    <color name="secondary_text">#ff999999</color>
+    <color name="secondary_text_black">#c6c6c6</color>
+    <color name="violet">#5E3F8b</color>
+    <color name="lime_bright">#D8DE1A</color>
+    <color name="lime_dark">#FF96AA39</color>
+    <color name="transparent_holo_light_blue">#4433b5e5</color>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SelectedAlbumPlayList">
+
+    <item android:id="@+id/albumNameText"
+        android:title="Albums"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/add_to_playlist"
+        android:title="Add Songs"
+        app:showAsAction="always"/>
+
+</menu>

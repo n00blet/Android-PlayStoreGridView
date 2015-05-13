@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!-- the theme applied to the application or activity -->
+    <style name="MyActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_background</item>
+    </style>
+
+    <!-- new changes -->
+
+    <style name="AudioFileInfoOverlayText">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ToolbarBackground">
+        <item name="android:background">#222233</item>
+    </style>
+
+    <style name="ChooseContactBackground">
+        <item name="android:background">#cc9933</item>
+    </style>
+
+    <style name="VerticalDividerForList">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">4px</item>
+        <item name="android:background">#444444</item>
+    </style>
+
+    <style name="VerticalDividerLeft">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">4px</item>
+        <item name="android:background">#666677</item>
+    </style>
+
+    <style name="VerticalDividerRight">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">4px</item>
+        <item name="android:background">#000022</item>
+    </style>
+
+    <style name="HorizontalDividerTop">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#666677</item>
+    </style>
+
+    <style name="HorizontalDividerBottom">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#000022</item>
+    </style>
+
+    <!-- Custom grid styles -->
+    <style name="WeListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/button_transparent</item>
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+
+    <style name="ListItemTitle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="ListSubItemTitle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="TransparentButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_transparent</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="SecondaryText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <style name="PrimaryTextDark">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/primary_text_black</item>
+    </style>
+
+    <style name="SecondaryTextDark" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/secondary_text_black</item>
+    </style>
+
+    <style name="PrimaryTextLime">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/lime_dark</item>
+    </style>
+
+    <style name="SecondaryTextLime" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/lime_dark</item>
+    </style>
+
+</resources>

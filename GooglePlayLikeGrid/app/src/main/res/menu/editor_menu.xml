@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RingdroidEditActivity">
+
+    <!--<item android:id="@+id/album"-->
+        <!--android:title="Albums"-->
+        <!--app:showAsAction="always"/>-->
+
+    <!--<item android:id="@+id/profile"-->
+        <!--android:title="Profile"-->
+        <!--app:showAsAction="always"/>-->
+
+    <!--<item android:id="@+id/reports"-->
+        <!--android:title="Reports"-->
+        <!--app:showAsAction="always"/>-->
+
+</menu>

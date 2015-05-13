@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="275dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popup_shape"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/folderNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Grid Name"
+        android:inputType="text"
+        android:textColorHint="#373636" />
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/folderNameId"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_done"
+        android:text=" Done " />
+
+    <Button
+        android:id="@+id/dialogCancelOK"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/folderNameId"
+        android:layout_below="@+id/folderNameId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_cancel"
+        android:text=" Cancel" />
+
+</RelativeLayout>
